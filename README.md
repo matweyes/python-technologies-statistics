@@ -79,10 +79,18 @@ cd python-technologies-statistics
 ### 2. Install dependencies
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3. Run async scraping
+### 3. Run linter
+
+```bash
+flake8 --exclude=.venv,data,reports,notebooks .
+```
+
+### 4. Run async scraping
 
 ```bash
 python main.py
@@ -93,7 +101,7 @@ This will:
 * scrape vacancies from Work.ua and DOU.ua
 * save raw data into the `data/` directory
 
-### 4. Run analysis & visualization
+### 5. Run analysis & visualization
 
 Open Jupyter Notebook:
 

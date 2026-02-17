@@ -3,7 +3,13 @@ from datetime import datetime
 
 from scraper import WorkUAScraper, DOUScraper
 from scraper.saver import save_json
-from config import SCRAPERS, MAX_VACANCIES_PER_SOURCE, RAW_DATA_DIR, HISTORY_DIR, IMAGES_DIR
+from config import (
+    SCRAPERS,
+    MAX_VACANCIES_PER_SOURCE,
+    RAW_DATA_DIR,
+    HISTORY_DIR,
+    IMAGES_DIR,
+)
 
 
 async def run_scraper(name: str):

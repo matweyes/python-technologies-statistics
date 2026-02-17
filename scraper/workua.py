@@ -41,7 +41,9 @@ class WorkUAScraper(BaseScraper):
             "url": url,
             "title": get_text_safe(soup.select_one("h1")),
             "company": get_text_safe(
-                soup.select_one("div.wordwrap ul.list-unstyled li.text-indent a.inline span")
+                soup.select_one(
+                    "div.wordwrap ul.list-unstyled li.text-indent a.inline span"  # noqa: E501
+                )
             ),
             "description": get_text_safe(soup.select_one("div.wordwrap")),
             "technologies": technologies  # store as list, not string

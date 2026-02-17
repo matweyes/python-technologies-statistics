@@ -39,7 +39,10 @@ def counter_to_df(counter: Counter) -> pd.DataFrame:
     )
 
 
-def technologies_by_experience(df: pd.DataFrame, experience_level: str) -> Counter:
+def technologies_by_experience(
+        df: pd.DataFrame,
+        experience_level: str
+) -> Counter:
     subset = df[
         (df["experience_level"] == experience_level)
     ]

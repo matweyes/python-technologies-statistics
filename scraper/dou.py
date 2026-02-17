@@ -35,6 +35,8 @@ class DOUScraper(BaseScraper):
             "source": "dou.ua",
             "url": url,
             "title": get_text_safe(soup.select_one("h1")),
-            "company": get_text_safe(soup.select_one("div.b-compinfo div.l-n a")),
+            "company": get_text_safe(
+                soup.select_one("div.b-compinfo div.l-n a")
+            ),
             "description": get_text_safe(soup.select_one(".vacancy-section")),
         }
