@@ -1,2 +1,8 @@
 .venv
 .idea
+
+/data/raw/*
+!/data/raw/.gitignore
+
+/reports/images/*
+!/reports/images/.gitignore
