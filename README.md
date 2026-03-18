@@ -122,6 +122,15 @@ This notebook:
 * builds statistics for technologies and experience levels
 * generates charts in `reports/images/`
 
+#### Charts examples:
+* Top technologies overall<br>
+<a href="reports/examples/top_technologies.png" target="_blank"><img src="reports/examples/top_technologies.png" width="400" alt="Top Technologies" /></a> 
+* Junior technologies<br>
+<a href="reports/examples/junior_tech.png" target="_blank"><img src="reports/examples/junior_tech.png" width="400" alt="Top Technologies" /></a> 
+* Middle technologies<br>
+<a href="reports/examples/middle_tech.png" target="_blank"><img src="reports/examples/middle_tech.png" width="400" alt="Top Technologies" /></a> 
+* Senior technologies<br>
+<a href="reports/examples/senior_tech.png" target="_blank"><img src="reports/examples/senior_tech.png" width="400" alt="Top Technologies" /></a> 
 ---
 
 ## Analysis Logic
