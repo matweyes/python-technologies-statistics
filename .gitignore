@@ -2,7 +2,7 @@
 .idea
 
 /data/raw/*
-!/data/raw/.gitignore
+!/data/raw/.gitkeep
 
 /reports/images/*
-!/reports/images/.gitignore
+!/reports/images/.gitkeep
